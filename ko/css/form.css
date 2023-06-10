@@ -1,0 +1,305 @@
+@charset "utf-8";
+
+/*input
+----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+input[type="checkbox"], input[type="radio"]{margin:-1px 2px 2px 0; vertical-align:middle}
+
+.inTxt{border:1px solid #ddd; color:#666; height:35px; line-height:33px;  background:#fff; vertical-align:top; box-sizing:border-box; text-indent:10px;}
+.inTxt:focus{border:1px solid #78c6fb; box-shadow:2px 2px 6px #eee inset;   }
+
+.infile{border:1px solid #ddd; color:#666; height:35px; line-height:33px;  background:#fff; vertical-align:top; box-sizing:border-box;}
+.infile:focus{border:1px solid #78c6fb; box-shadow:2px 2px 6px #eee inset;   }
+
+
+.textarea{border:1px solid #ddd;  padding:10px; text-align:left; line-height:18px;color:#666;  text-align:left; box-sizing:border-box;}
+.textarea:focus{border:1px solid #78c6fb; box-shadow:2px 2px 6px #d9d9d9 inset; color:#777;  }
+
+.textarea1{padding:20px 25px; text-align:left; line-height:22px;color:#666;  overflow:auto; overflow-x:hidden;  font-family:'돋움',Dotum,sans-serif; word-spacing:0.02em; word-break:break-all;}
+
+.selTxt{color:#666; height:33px; line-height:35px; text-indent:4px; }
+
+.no_Txt{border:0; height:28px; line-height:30px; text-align:left;  color:#8C8C8C;  font-family:'Nanum Gothic','나눔 고딕','NanumGothicWeb','돋움',Dotum,sans-serif }
+.select{border:1px solid #ddd; color:#666; height:30px; line-height:30px; text-indent:4px; background:#fff; vertical-align:top; box-sizing:border-box;}
+.select:focus{border:1px solid #4eb5a8; box-shadow:2px 2px 6px #eee inset;   }
+
+button{border:0}
+
+
+/***************************/
+/** Common to every theme **/
+/***************************/
+.DivSelectyze {
+	position:relative;	
+	text-align: left;
+}
+
+.DivSelectyze .selectyzeValue {
+	position:relative;
+	z-index:1;
+	display:block;
+	text-decoration:none;
+}
+
+.DivSelectyze ul {list-style:none;}
+.DivSelectyze .UlSelectize {
+	position:absolute;
+	z-index:50;
+	display:none;
+}
+
+.DivSelectyze li a {
+	display:block;
+	text-decoration:none;
+}
+
+.optgroupTitle {
+	display:block;
+}
+/*******************************/
+/** END COMMON TO EVERY THEME **/
+/*******************************/
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/*****************/
+	/** SKYPE THEME **/
+	/*****************/
+	.skype .selectyzeValue {
+		padding:0 10px ;
+		color:#333;
+		background:url("../images/ic_down.png") no-repeat 94% center;
+		line-height:28px;
+		font-size:14px;
+		text-align:left;
+		font-family:"Roboto","NotoSansKR-Light";
+		border:1px solid #aaa;
+	}
+
+	.skype .UlSelectize {
+		top:30px;
+		left:0px;
+		background-color:#fff;
+		z-index:5;
+		max-height:110px; 
+		overflow:auto;
+		overflow-x:hidden;
+		box-sizing:border-box;
+		width:100%;
+		padding:5px 0;
+		border:1px solid #aaa;
+		border-top:0
+	}
+
+	.skype li a {
+		line-height:18px;
+		background-color:transparent;
+		color:#333;
+		text-align:left;
+		font-size:13px;
+		display:block; 
+		padding:5px 10px;
+		font-family:"Roboto","NotoSansKR-Light";
+	}
+
+	.skype li a:hover {
+		color:#002d7c
+	}
+	
+	.skype .optgroupTitle {
+		margin-top:15px;
+		font-size:16px;
+		padding-left:10px;
+		background-color:#0fb1ef;
+		color:#fff;
+	}
+	
+	
+	
+	/*****************/
+	/** MAC THEME **/
+	/*****************/
+	.mac .selectyzeValue {
+		padding:0 10px;
+		border:1px solid #d9d9d9;
+		color:#8c8c8c;
+		background:url("../images/ic_down_arrow.html") no-repeat 94% 11px #fff;
+		line-height:24px;
+		height:28px;
+		font-size:12px
+	}
+
+	.mac .UlSelectize {
+		top:28px;
+		left:0px;
+		background-color:#fff;
+		border:1px solid #d9d9d9;
+		border-top:0;
+		z-index:5;
+		max-height:140px; 
+		overflow:auto;
+		overflow-x:hidden;
+	}
+
+	.mac li a {
+		height:28px;
+		line-height:28px;
+		background-color:transparent;
+		color:#8c8c8c;
+		text-indent:10px;
+		font-family:'돋움','Dotum', 'verdana';
+		font-size:12px
+
+	}
+
+	.mac li a:hover {
+		color:#000;		
+		
+	}
+	
+	.mac .optgroupTitle {
+		margin-top:15px;
+		font-size:13px;
+		padding-left:10px;
+		background-color:#fff;
+		color:#969696;
+	}
+	
+	
+	/****************/
+	/** GREY HEME **/
+	/*****************/
+	.grey .selectyzeValue {
+		font-size:12px;		
+		padding:0 10px;
+		min-width: 70px;
+		border:1px solid #cdcdd4;
+		color:#666;
+		background:url("../images/ic_down_arrow.html") no-repeat 94% center #fff;
+		line-height:28px;
+		height:26px;
+	}
+
+	.grey .UlSelectize {
+		top:27px;
+		left:0;
+		border:1px solid #cdcdd4;
+		border-top:0;
+		background-color:#fff;
+	}
+
+	.grey li a {
+		height:28px;
+		line-height:28px;
+		background-color:transparent;
+		color:#797979;
+		text-indent:10px;
+	}
+
+	.grey li a:hover {
+		color:#666;
+		font-weight:600
+	}
+	
+	.grey .optgroupTitle {
+		margin-top:15px;
+		font-size:20px;
+		padding-left:10px;
+		background-color:#858585;
+		color:#fff;
+	}
+	
+	
+	/*******************/
+	/** FIREFOX THEME **/
+	/*******************/
+	
+	.firefox .selectyzeValue {
+		padding:15px 10px 15px 20px;
+		box-sizing:border-box;
+		color:#fff;
+		background:url("../images/loca_sel.html") no-repeat 94% center;
+		line-height:30px;
+		font-size:17px;
+	}
+	.firefox .selectyzeValue.on {
+		background:url("../images/loca_sel_on.html") no-repeat 94% center;
+	}
+
+	.firefox .UlSelectize {
+		top:60px;
+		left:0px;
+		background-color:#0d4b8e;
+		z-index:5;
+		max-height:238px; 
+		overflow:auto;
+		overflow-x:hidden;
+		box-sizing:border-box;
+		width:100%;
+		padding:5px 0
+	}
+
+	.firefox li a {
+		line-height:18px; 
+		padding:10px 10px 10px 20px; 
+		color:#fff; 
+		letter-spacing:-0.03em;
+		display:block;
+		font-size:17px;
+	}
+
+	.firefox li a:hover {
+		text-decoration:underline
+	}
+	
+	.firefox .optgroupTitle {
+		margin-top:15px;
+		font-size:16px;
+		padding-left:10px;
+		background-color:#0fb1ef;
+		color:#fff;
+	}
+	
+	/****************/
+	/** CSS3 THEME **/
+	/****************/
+	.css3 .selectyzeValue {
+		font:14px/46px Arial;
+		color:#666666;
+		text-shadow:1px 1px 0px #fff;
+		text-align:center;
+		width:195px;
+		height:46px;
+		background:url('bg_css3.html') no-repeat;
+	}
+
+	.css3 .UlSelectize {
+		top:36px;
+		left:2px;
+		width:190px;
+		background-color:#222222
+	}
+
+	.css3 li a {
+		font:12px/20px Arial;
+		background-color:transparent;
+		color:#fff;
+		text-align:center;
+		padding:3px 0
+	}
+
+	.css3 li a:hover {
+		background-color:#3e3d3d;
+	}
+	
+	.css3 .optgroupTitle {
+		margin-top:15px;
+		font-size:17px;
+		font-style:italic;
+		padding-left:10px;
+		background-color:#3e3d3d;
+		color:#fff;
+		font-weight:700
+	}
+
+

@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+@font-face{
+font-family:"NotoSansKR";
+src:url('../fonts/NotoSansKR-Regular.html');
+src:url('../fonts/NotoSansKR-Regulard41d.html?#iefix') format('embedded-opentype'),
+url('../fonts/NotoSansKR-Regular.woff') format('woff'),
+url('../fonts/NotoSansKR-Regular-2.html') format('truetype');
+src:local(※), url('../fonts/NotoSansKR-Regular.woff') format('woff');
+}
+
+@font-face{
+font-family:"NotoSansKR-Medium";
+src:url('../fonts/NotoSansKR-Medium.html');
+src:url('../fonts/NotoSansKR-Mediumd41d.html?#iefix') format('embedded-opentype'),
+url('../fonts/NotoSansKR-Medium.woff') format('woff'),
+url('../fonts/NotoSansKR-Medium-2.html') format('truetype');
+src:local(※), url('../fonts/NotoSansKR-Medium.woff') format('woff');
+}
+
+@font-face{
+font-family:"NotoSansKR_bold";
+src:url('../fonts/NotoSansKR-Bold.html');
+src:url('../fonts/NotoSansKR-Boldd41d.html?#iefix') format('embedded-opentype'),
+url('../fonts/NotoSansKR-Bold.woff') format('woff'),
+url('../fonts/NotoSansKR-Bold-2.html') format('truetype');
+src:local(※), url('../fonts/NotoSansKR-Bold.woff') format('woff');
+}
+
+@font-face{
+font-family:"NotoSansKR-Light";
+src:url('../fonts/NotoSansKR-Light.eot');
+src:url('../fonts/NotoSansKR-Lightd41d.eot?#iefix') format('embedded-opentype'),
+url('../fonts/NotoSansKR-Light.woff') format('woff'),
+url('../fonts/NotoSansKR-Light.ttf') format('truetype');
+src:local(※), url('../fonts/NotoSansKR-Light.woff') format('woff');
+}
+
+@font-face{
+font-family:"NotoSansKR-Thin";
+src:url('../fonts/NotoSansKR-Thin.html');
+src:url('../fonts/NotoSansKR-Thind41d.html?#iefix') format('embedded-opentype'),
+url('../fonts/NotoSansKR-Thin.woff') format('woff'),
+url('../fonts/NotoSansKR-Thin.ttf') format('truetype');
+src:local(※), url('../fonts/NotoSansKR-Thin.woff') format('woff');
+}
+
+
+@font-face{
+font-family:"NanumGothic";
+src:url('../fonts/NanumGothic.html');
+src:url('../fonts/NanumGothicd41d.html?#iefix') format('embedded-opentype'),
+url('../fonts/NanumGothic-2.html') format('woff'),
+url('../fonts/NanumGothic-3.html') format('truetype');
+src:local(※), url('../fonts/NanumGothic-2.html') format('woff');
+}
+
+
+/* 2015-05-21 likeweb.co.kr WebPublisher */
+
+/*기본태그 정의*/
+html, body {padding:0;margin:0;height:100%; color:#666; letter-spacing:-0.02em; }
+body, td, select, textarea, input {font-size:12px; font-family:"NotoSansKR","NanumGothic",sans-serif}
+*:focus { outline:none; }​ 
+ ::-moz-selection{background:#0e559b;color:#fff;}
+ ::selection{background:#0e559b;color:#fff;}
+
+/* 마진과 패딩의 초기화 */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input,  blockquote {margin:0;padding:0;}
+
+
+/* 헤더 폰트 사이즈 초기화 */
+h1, h2, h3, h4, h5, h6 {font-size:100%;}
+
+/* 리스트의 스타일 제거 */
+ol, ul {list-style:none;}
+
+/* 테이블 스타일 초기화 */
+table {border-collapse:collapse;border-spacing:0px;}
+th{font-weight:500}
+/* 이미지 및 필드셋에서 보더 표시 초기화 */
+fieldset, img,iframe{border:0; vertical-align:top;}
+img{vertical-align:top; max-width:100%}
+iframe{padding:0;margin:0}
+
+/* 캡션 텍스트 정렬 초기화 */
+caption {text-align:left;}
+
+/* 폼태그의 초기화 */
+input,radio {vertical-align:middle;}
+a{color:#666; text-decoration:none; padding:0; margin:0;}
+a:link    {text-decoration:none; }
+a:active    {text-decoration:none; }
+a:visited    {text-decoration:none;}
+a:hover    {text-decoration:none; }
+
+/* hidden 처리 */
+caption{width:0;height:0;font-size:0;line-height:0;overflow:hidden;visibility:hidden;}
+.hide,hr{position:absolute;top:0;width:0;height:0;font-size:0;line-height:0;overflow:hidden;visibility:hidden;}
+
+.Roboto{font-family:'Roboto'}
+.NotoSansKR{font-family:"NotoSansKR";}
+.NotoSansKR_bold{font-family:"NotoSansKR_bold";}
+.NotoSansKR_M{font-family:"NotoSansKR-Medium";}
+.NotoSansKR_Ebold{font-family:"NotoSansKR_Ebold"}
+.NanumGothic{font-family:"NanumGothic";}
+.Nanum_bold{font-family:"Nanum_bold";}
+.Nanum_Li{font-family:"Nanum_Light";}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.clear::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
